@@ -1,0 +1,90 @@
+body {
+    background-color: #f7f4f4;
+}
+
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(26, 25, 25);
+}
+
+
+
+.nav-link, h1, h2{
+    color: yellow;
+    font-family: 'Bungee', cursive;
+}
+
+.nav-link {
+    font-size: 24px;
+
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.sobre img {
+    height: 480px;
+    width: 100%;
+}
+
+.sobre, .produtos {
+    padding-top: 100px;
+}
+
+.sobre p{
+    font-size: 18px;
+}
+
+.produtos img {
+    height: 250px;
+    width: 250px;
+}
+.produtos h4 {
+    font-size: 20px;
+}
+
+.produtos h5 {
+    font-weight: bold;
+}
+
+footer {
+    background-color:  rgb(26, 25, 25);
+    padding-bottom: 1px;
+    margin-top: 50px;
+}
+
+footer p {
+    display: flex;
+    padding-top: 15px ;
+    color: yellow;
+}
+
+@media screen and (max-width: 991px) {
+    h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre p {
+        text-align: center;
+    }
+
+    .luminarias {
+        padding-left: 50px;
+    }
+
+    .luminarias > div {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .luminarias > div {
+        padding-left: 13vw;
+    }
+}
